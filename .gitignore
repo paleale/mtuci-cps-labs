@@ -8,5 +8,12 @@ __pycache__/
 local_settings.py
 lab1_db-journal
 lab1_db
+lab2_db
 Icon?
 manage.py
+
+# OS X
+.DS_Store
+
+# JetBrains IDEA
+.idea/
