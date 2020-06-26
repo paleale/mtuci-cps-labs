@@ -11,15 +11,17 @@
       }
    </style>
    <body>
-      <h1>Hello world 2020</h1>
+      <h1 style="font-family:georgia;">Hello world 2020</h1>
       <h2>Learning site for 
          python/django, html/css.
       </h2>
       <h3>Look at this header
          it's h3.
       </h3>
+      {% load static %}
+      <img src={% static "img.jpg" %} style="height:30px;">
       <p>Bullet list of elements:</p>
-      <h4>
+      <h4 style="font-size:160%;">
          <ul>
             <li>Thing 1;</li>
             <li>Thing 2;</li>
@@ -28,7 +30,7 @@
          </ul>
       </h4>
       <p>Numbered list:</p>
-      <h4>
+      <h4 style="font-size:160%;">
          <ol>
             <li>Thing 1;</li>
             <li>Thing 2;</li>
